@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+}
+.emi{
+    width: 400px;
+    margin: 50px 100px;
+    border: 1px solid lightslategray;
+    padding: 40px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border-color:blueviolet;
+}
+input[type="button"]{
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin:20px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+input[type="button"]:active{
+    background-color: black;
+}
+.result{
+    opacity: 0;
+    text-align: left;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

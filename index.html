@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EMI calculator</title>    
+        <link rel="stylesheet" href="style.css">    
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <h1>EMI Calculator</h1>
+        <div class="flexbox">
+            <div class="emi">
+                <input type="text" placeholder="Enter Principal loan amount" id="pa">
+                <input type="text" placeholder="Enter Rate of interest" id="rate">
+                <input type="text" placeholder="Enter Number of monthly installments / Loan term " id="year">
+                <input type="button" value="Calculate EMI" onclick="calculateEMI()">
+            </div>
+            <div class="emi result">
+                <p>Principal Amount: &ensp;₹ <span class="pa"></span></p>
+                <p>Rate of Interest: &ensp;₹ <span class="rate"></span></p>
+                <p>Years: &ensp;₹ <span class="year"></span></p>
+                <p>EMI: &ensp;₹ <span class="em"></span></p>
+                <p>Total Amount payable: &ensp;₹ <span class="pay"></span></p>
+                <p>Total interest due: &ensp;₹ <span class="due"></span></p>
+            </div>
+        </div>
+    </body>
+</html>
